@@ -7,5 +7,6 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://sivavarupala.github.io',
   base: '/portfolio',
+  trailingSlash: 'always',
   integrations: [mdx(), sitemap()],
 });
